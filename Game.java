@@ -32,7 +32,7 @@ public class Game
         if(c5) number += card5[0];
         if(c1 && c2 && c3 && c4 && c5 || !c1 && !c2 && !c3 && !c4 && !c5)
         {
-            System.out.println("Do you even maths bruh??");
+            System.out.println("The number is not in the range [1,30]");
         }
         else
         System.out.println("Your number is: " + number);
